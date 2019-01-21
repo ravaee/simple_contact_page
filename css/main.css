@@ -1,0 +1,118 @@
+
+body{
+    font-family: Vazir;
+    direction: rtl;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: maroon;
+    margin: 0px;
+    display: table;
+
+}
+
+h2{
+    color:#333;
+    margin: 0px;
+}
+
+h3{
+    color:#333;
+    margin: 0px;
+}
+
+h1{
+    color:#333;
+}
+
+
+.header_text{
+    color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container{
+    float:right;
+    padding: 2%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+hr.solid{
+
+    color: lightgray;
+    background-color: lightgray;
+    height: 1px;
+}
+
+.hor{
+    display:inline-block;
+    padding: 5px;
+}
+
+
+.pane {
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+}
+
+
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: vazir;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.right_box{
+    padding: 3%;
+    width: 13%;
+    box-sizing: border-box;
+    display: table-cell;
+    height: auto;
+}
+
+.full_box{
+    padding: 1%;
+    width: 83%;
+    box-sizing: border-box;
+    display: table-cell;
+    height: auto;
+    vertical-align: top;
+}
+
+/* awesome */
+
+.fa-telegram{
+    color: #1b94e5;
+    size: 60px;
+}
+
+.fa-volume-control-phone{
+    color:green;
+    size: 60px;
+}
+
+.fa-instagram{
+    color:rebeccapurple;
+    size: 60px;
+}
