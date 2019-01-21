@@ -3,7 +3,7 @@ a simple contact us page pure css nice to use single page web view in your mobil
 
 how to use it? its very simple take a look to below code :
 
-for example imagine that is your android application java code which represent application support button in your client app:
+for example imagine that is your android application java code which represent application support button in a client app:
 
 ```
 support.setOnClickListener(new View.OnClickListener() {
@@ -17,7 +17,7 @@ support.setOnClickListener(new View.OnClickListener() {
 });
 				
 ```
-so as you see we can use a browser activity with our command insted of static activities that you can never handle them after release :)
+so as you see we can use a browser activity or a webview with an url that contains command param insted of using static activities that you can never handle them after release :)
 
 ```
 
@@ -45,7 +45,7 @@ if (isset($_GET['command'])) {
 
 now you can simply change whole your content depend to you sichuation :)
 
-its better to remove browser cache to avoid reachs wrong content to user :D
+its better to remove browser cache to avoid reaches wrong content to user :D
 
 ```
 <?php
